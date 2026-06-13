@@ -1,9 +1,9 @@
-# CrateMind Terms of Service
+# Boxwise Terms of Service
 
-**Effective Date:** June 1, 2026  
-**Last Updated:** June 1, 2026
+**Effective Date:** June 13, 2026  
+**Last Updated:** June 13, 2026 (revised for Boxwise branding, subscriptions, advertising, Firebase)
 
-Welcome to **CrateMind** (箱忆)! These Terms of Service (“Terms”) govern your download, installation, access, and use of the mobile application **CrateMind** (the “App”) and related services.
+Welcome to **Boxwise** (克瑞箱记)! These Terms of Service (“Terms”) govern your download, installation, access, and use of the mobile application **Boxwise** (also marketed historically as **CrateMind** / **BoxKeeper**) (the “App”) and related services.
 
 **Please read these Terms carefully. By downloading, installing, or using the App, you agree to be bound by them. If you do not agree, do not use the App.**
 
@@ -11,11 +11,20 @@ Welcome to **CrateMind** (箱忆)! These Terms of Service (“Terms”) govern y
 
 ## 1. Parties and Service Description
 
-1.1 **CrateMind** is a storage organization tool. You create boxes, maintain item lists, generate printable QR labels, scan labels to open a box instantly, search items, and optionally sync across devices.
+1.1 **Boxwise** is a storage organization tool. You create boxes, maintain item lists, generate printable QR labels, scan labels to open a box instantly, search items, and optionally sync across devices.
 
-1.2 The App offers a **free tier** (limited number of boxes and features) and a **Pro** upgrade—a **one-time, non-consumable in-app purchase** through the App Store (not a subscription). Pro unlocks features such as unlimited boxes, iCloud sync, data export/import, advanced label printing, family sharing workflows, and expiration reminders as described in the App.
+1.2 The App offers a **free tier** (limited boxes and features, supported by advertising) and **Pro** upgrades through the App Store, which may include:
 
-1.3 The current version is **ad-free** and does not require account registration with us. Your data is stored primarily on your device and, if you enable it, in your iCloud account.
+| Offering | Description |
+|----------|-------------|
+| **Weekly subscription (with introductory free trial)** | Auto-renewing weekly access to Pro features. A **3-day free trial** may be offered to eligible new subscribers. After the trial, billing converts to the weekly price shown in the App unless you cancel before the trial ends. |
+| **Yearly subscription** | Auto-renewing annual access to Pro features at the price shown in the App. |
+| **Lifetime purchase** | One-time, non-consumable purchase for ongoing Pro access on your Apple ID, subject to these Terms and App availability. |
+| **Legacy lifetime purchase** | Earlier one-time Pro purchase (`com.hulk.boxkeeper.pro`) remains honored for users who bought it. |
+
+Exact titles, durations, and prices are displayed in the App and App Store **before** you confirm a purchase. Pro unlocks features such as unlimited boxes, ad removal, iCloud sync, data export/import, advanced label printing, family sharing workflows, and expiration reminders as described in the App.
+
+1.3 No account registration with us is required. Your inventory data is stored primarily on your device and, if you enable it, in your iCloud account.
 
 1.4 We may update, change, or discontinue features from time to time and will try to minimize adverse impact on users who have accepted these Terms, without guaranteeing uninterrupted service.
 
@@ -27,13 +36,13 @@ Welcome to **CrateMind** (箱忆)! These Terms of Service (“Terms”) govern y
 
 2.2 **You may not, without our written permission:**
 
-- Copy, modify, reverse engineer, decompile, or disassemble the App (except as law expressly allows)  
-- Rent, lease, sell, distribute, or commercially exploit the App  
-- Remove or alter copyright, trademark, or proprietary notices  
-- Use the App for illegal, infringing, harassing, defamatory, obscene, or harmful purposes  
-- Attempt to bypass free-tier limits or Pro licensing except through a valid App Store purchase  
+- Copy, modify, reverse engineer, decompile, or disassemble the App (except as law expressly allows)
+- Rent, lease, sell, distribute, or commercially exploit the App
+- Remove or alter copyright, trademark, or proprietary notices
+- Use the App for illegal, infringing, harassing, defamatory, obscene, or harmful purposes
+- Attempt to bypass free-tier limits or Pro licensing except through a valid App Store purchase or subscription
 
-2.3 The App and all content (code, art, text, “CrateMind” branding, label layouts, etc.) are owned by us or licensors. No intellectual property is transferred to you.
+2.3 The App and all content (code, art, text, “Boxwise” branding, label layouts, etc.) are owned by us or licensors. No intellectual property is transferred to you.
 
 ---
 
@@ -41,67 +50,92 @@ Welcome to **CrateMind** (箱忆)! These Terms of Service (“Terms”) govern y
 
 3.1 No account registration with us is required. Box and item data is stored on your device and, when you enable **iCloud sync (Pro)**, in your iCloud account via Apple’s CloudKit.
 
-3.2 **QR codes** generated by the App encode a **box identifier** (via a custom URL scheme such as `boxkeeper://box/{UUID}`) and a human-readable code (e.g. `BK-014`) on printed labels. They do **not** embed your full item list. Anyone who scans a label with the App installed can open that box’s record **on the device where that data exists**.
+3.2 **QR codes** generated by the App encode a **box identifier** (via custom URL schemes such as `cratemind://` or `boxkeeper://`) and a human-readable code (e.g. `BK-014`) on printed labels. They do **not** embed your full item list. Anyone who scans a label with the App installed can open that box’s record **on the device where that data exists**.
 
 3.3 You are responsible for:
 
-- The accuracy of names, locations, and item lists you enter  
-- Keeping labels physically secure if you do not want others to identify linked boxes  
-- Maintaining backups (device backup, iCloud, or Pro export) before uninstalling, resetting, or changing devices  
+- The accuracy of names, locations, and item lists you enter
+- Keeping labels physically secure if you do not want others to identify linked boxes
+- Maintaining backups (device backup, iCloud, or Pro export) before uninstalling, resetting, or changing devices
 
 3.4 Uninstalling the App or losing device/iCloud data may result in loss of inventory records. We are not liable for such loss except as required by law. Use **Restore Purchase** in Settings if you reinstall Pro on a new device.
 
-3.5 **iCloud sync**, **StoreKit purchases**, and **AirPrint** are subject to Apple’s terms; issues with Apple services should be directed to Apple where appropriate.
+3.5 **iCloud sync**, **StoreKit purchases/subscriptions**, and **AirPrint** are subject to Apple’s terms; issues with Apple services should be directed to Apple where appropriate.
 
 ---
 
-## 4. Pro Purchase and Virtual Entitlements
+## 4. Pro Purchases, Subscriptions, and Billing
 
-4.1 **Pro** is a **one-time purchase** processed by Apple. Price is shown in the App before purchase. There is **no subscription** in the current version.
+4.1 **Payment.** All purchases and subscriptions are processed by **Apple**. Price, currency, and tax are shown in the App and App Store before you confirm.
 
-4.2 Pro entitlements are tied to your **Apple ID** through Apple’s records. Use **Restore Purchase** on a new device or after reinstalling.
+4.2 **Auto-renewable subscriptions.**
 
-4.3 Pro features and free-tier limits (e.g. maximum number of boxes) may be adjusted for product balance; we will not remove a valid Pro purchase you already paid for, though feature descriptions may evolve in updates.
+- Subscriptions **automatically renew** unless you cancel at least **24 hours before** the end of the current period.
+- Your Apple ID is charged for renewal within **24 hours prior** to the end of the current period at the then-current price.
+- You can manage or cancel subscriptions in iOS **Settings → [your name] → Subscriptions** (wording may vary by iOS version) or your App Store account settings.
+- If a **free trial** is offered, unused trial time is forfeited when you purchase a subscription where applicable under Apple’s rules.
+- **Free trial conversion:** If you start a free trial and do not cancel before it ends, your subscription automatically converts to a paid subscription and your Apple ID will be charged as disclosed in the App.
 
-4.4 Refunds for App Store purchases are handled by **Apple** under App Store policies, not directly by us.
+4.3 **Lifetime and legacy purchases.** Lifetime Pro is a **non-consumable** purchase tied to your **Apple ID** through Apple’s records. Use **Restore Purchase** after reinstalling or on a new device.
+
+4.4 **Refunds.** Refund requests for App Store purchases and subscriptions must be submitted to **Apple** under App Store policies; we cannot process App Store refunds directly.
+
+4.5 **Feature changes.** We may adjust free-tier limits or Pro feature descriptions for product balance. We will not remove a valid paid Pro entitlement you already have for the purchased period or lifetime scope, though individual features may evolve in updates.
 
 ---
 
-## 5. Acceptable Use
+## 5. Advertising and Privacy Choices (Free Tier)
+
+5.1 You understand the free version includes **third-party ads**, which may include **app open ads** and **rewarded video ads**. Rewarded ads may grant temporary in-app benefits (e.g. an extra box slot or access to certain actions) only when fully watched, as shown in the App.
+
+5.2 **Pro subscribers** generally do not see ads, subject to technical limitations and product updates.
+
+5.3 Ad content is provided by advertisers; we do not warrant its accuracy or legality. Disputes with advertisers are between you and them.
+
+5.4 **Tracking and consent:** On first launch, the App may ask for network access, show Apple’s **App Tracking Transparency** prompt (where applicable), and—in **European regions where required**—a **Google UMP** consent message about ads and related technologies. By continuing to use the App after these prompts, you acknowledge that ads may be served according to your choices and applicable law.
+
+5.5 You may change preferences later: **Tracking** in iOS Settings; **Ad Privacy Choices** in the App’s Settings when offered. Declining tracking or withholding ad consent does not block core offline organization features, but ads may be limited, non-personalized, or unavailable until consent rules are satisfied.
+
+---
+
+## 6. Acceptable Use
 
 You agree not to:
 
-- Violate applicable laws in your jurisdiction  
-- Infringe others’ intellectual property, privacy, or reputation  
-- Store or distribute unlawful content using the App  
-- Distribute malware or attack the App, Apple services, or related infrastructure  
-- Misrepresent ownership of boxes or items in shared or exported backups  
+- Violate applicable laws in your jurisdiction
+- Infringe others’ intellectual property, privacy, or reputation
+- Store or distribute unlawful content using the App
+- Distribute malware or attack the App, Apple services, or related infrastructure
+- Misrepresent ownership of boxes or items in shared or exported backups
 
 We may warn, restrict, or terminate your license where technically feasible for serious violations.
 
 ---
 
-## 6. Privacy
+## 7. Privacy
 
 Our **Privacy Policy** describes how information is handled and is incorporated into these Terms. If they conflict on personal data, the Privacy Policy controls for that topic.
 
-Privacy Policy: https://github.com/skrhhh/Cra-teMind_Setting/blob/main/Privacy-Policy.md
+- Privacy Policy: https://github.com/skrhhh/Cra-teMind_Setting/blob/main/Privacy-Policy.md
+- Terms of Service (this document): https://github.com/skrhhh/Cra-teMind_Setting/blob/main/Terms-of-Service.md
+
+For App Store metadata purposes, if you use Apple’s standard EULA for apps, you may also reference: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 
 ---
 
-## 7. Disclaimers
+## 8. Disclaimers
 
-7.1 The App is provided **“as is”** and **“as available.”** To the fullest extent permitted by law, we disclaim warranties of uninterrupted, error-free, or fully secure service, absolute accuracy of search results, uninterrupted iCloud sync, printer compatibility, or availability of App Store services.
+8.1 The App is provided **“as is”** and **“as available.”** To the fullest extent permitted by law, we disclaim warranties of uninterrupted, error-free, or fully secure service, absolute accuracy of search results, uninterrupted iCloud sync, printer compatibility, availability of third-party ads or networks, or availability of App Store services.
 
-7.2 You bear data charges, battery use, label printing costs, and similar expenses from using the App.
+8.2 You bear data charges, battery use, label printing costs, and similar expenses from using the App.
 
-7.3 QR labels help you organize physical storage; we do not guarantee recovery of lost, stolen, or mislabeled items.
+8.3 QR labels help you organize physical storage; we do not guarantee recovery of lost, stolen, or mislabeled items.
 
-7.4 We are not liable for losses from force majeure, Apple or network failures, your misuse, failure to back up data, or breach of these Terms, except as law does not allow exclusion.
+8.4 We are not liable for losses from force majeure, Apple, Google, or network failures, your misuse, failure to back up data, or breach of these Terms, except as law does not allow exclusion.
 
 ---
 
-## 8. Limitation of Liability
+## 9. Limitation of Liability
 
 To the fullest extent permitted by law, we are not liable for indirect, incidental, special, punitive, or consequential damages (including lost profits, data, or goodwill) arising from these Terms or the App.
 
@@ -111,47 +145,55 @@ This does not limit liability for death or personal injury caused by our gross n
 
 ---
 
-## 9. Apple App Store Terms
+## 10. Apple App Store Terms
 
-9.1 These Terms are between you and us only; **Apple Inc. is not a party** and is not responsible for the App’s content, maintenance, support, or warranty.
+10.1 These Terms are between you and us only; **Apple Inc. is not a party** and is not responsible for the App’s content, maintenance, support, or warranty.
 
-9.2 To the extent Apple requires: product liability, consumer protection, and intellectual property claims relating to the App are our responsibility (not Apple’s). Apple may enforce these Terms as a third-party beneficiary where applicable.
+10.2 To the extent Apple requires: product liability, consumer protection, and intellectual property claims relating to the App are our responsibility (not Apple’s). Apple may enforce these Terms as a third-party beneficiary where applicable.
 
-9.3 You must comply with the App Store Terms of Service and export laws.
+10.3 **Subscriptions.** For auto-renewable subscriptions sold through the App:
 
----
+- Payment is charged to your Apple ID account at confirmation of purchase or at the end of a free trial period, as applicable.
+- Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
+- Your account will be charged for renewal within 24 hours prior to the end of the current period.
+- You can manage subscriptions and turn off auto-renewal in your App Store account settings after purchase.
+- Any unused portion of a free trial period, if offered, will be forfeited when you purchase a subscription, where applicable.
 
-## 10. Changes and Termination
-
-10.1 We may amend these Terms and notify you via the App, release notes, or published links. Continued use means acceptance; if you disagree, stop using and uninstall.
-
-10.2 You may terminate by uninstalling at any time.
-
-10.3 We may suspend or terminate access without prior notice for serious breach of these Terms.
-
-10.4 Sections that by nature should survive (IP, disclaimers, liability limits, dispute resolution, etc.) survive termination.
+10.4 You must comply with the App Store Terms of Service and export laws.
 
 ---
 
-## 11. Governing Law and Disputes
+## 11. Changes and Termination
 
-11.1 These Terms are governed by applicable law in the operator’s jurisdiction, without regard to conflict-of-law rules, except where mandatory local consumer laws apply to you.
+11.1 We may amend these Terms and notify you via the App, release notes, or published links. Continued use means acceptance; if you disagree, stop using and uninstall.
 
-11.2 Disputes shall first be resolved through good-faith negotiation. Failing that, either party may bring suit in a court of competent jurisdiction.
+11.2 You may terminate by uninstalling at any time. Cancel active subscriptions through Apple’s subscription settings to avoid future charges.
 
----
+11.3 We may suspend or terminate access without prior notice for serious breach of these Terms.
 
-## 12. Miscellaneous
-
-12.1 These Terms, the Privacy Policy, and App Store product information form the entire agreement. If any provision is invalid, the rest remains effective.
-
-12.2 Failure to enforce a right is not a waiver.
-
-12.3 Headings are for convenience only.
+11.4 Sections that by nature should survive (IP, disclaimers, liability limits, dispute resolution, etc.) survive termination.
 
 ---
 
-## 13. Contact Us
+## 12. Governing Law and Disputes
+
+12.1 These Terms are governed by applicable law in the operator’s jurisdiction, without regard to conflict-of-law rules, except where mandatory local consumer laws apply to you.
+
+12.2 Disputes shall first be resolved through good-faith negotiation. Failing that, either party may bring suit in a court of competent jurisdiction.
+
+---
+
+## 13. Miscellaneous
+
+13.1 These Terms, the Privacy Policy, and App Store product information form the entire agreement. If any provision is invalid, the rest remains effective.
+
+13.2 Failure to enforce a right is not a waiver.
+
+13.3 Headings are for convenience only.
+
+---
+
+## 14. Contact Us
 
 Questions about these Terms:
 
@@ -159,4 +201,4 @@ Questions about these Terms:
 
 ---
 
-**Thank you for using CrateMind. Organize with confidence!**
+**Thank you for using Boxwise. Organize with confidence!**
